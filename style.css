@@ -1,0 +1,183 @@
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.interbox {
+  min-height: 200px;
+  margin-top: -50px;
+  z-index: 9;
+  background: #fff;
+}
+.interbox p {
+  color: #3b3b3d;
+}
+
+.interbox a,
+h2,
+h3 {
+  color: #a70505;
+}
+.interbox h3 {
+  font-weight: 200px;
+  font-size: 22px;
+}
+.interbox q {
+  font-size: 30px;
+}
+
+.individual {
+  position: relative;
+}
+.individual p {
+  font-size: 14px;
+}
+.heading h3 {
+  background-color: #d10202;
+  color: white;
+  font-weight: 300;
+}
+.individual .heading h3 {
+  position: absolute;
+  margin-top: 30px;
+  padding: 5px 10px 2px;
+  margin-left: -17px;
+  z-index: 9;
+}
+.individual .heading h3::after {
+  content: "";
+  top: 0px;
+  width: 0;
+  height: 0;
+  left: 100%;
+  position: absolute;
+  border-top: 40px solid #d10202;
+  border-right: 15px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+/* .individual .heading h3::before {
+  content: "";
+  top: 40px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  right: 100%;
+  position: absolute;
+  border-top: 22px solid #d10202;
+  border-left: 17px solid transparent;
+  border-bottom: 0px solid transparent;
+} */
+.individual .btn {
+  border: 2px solid #be0303;
+  color: #be0303;
+  border-radius: 0%;
+  padding: 8px 20px;
+  margin: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: -2px;
+}
+.individual .btn:hover {
+  background-color: #af0202;
+  color: white;
+}
+.individual .btn.active {
+  background-color: #af0202;
+  color: white;
+}
+.individual .btn.active:hover {
+  background-color: #af0202;
+}
+.imagebox {
+  overflow: hidden;
+}
+
+.imagebox img:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+a {
+  text-decoration: none;
+}
+
+/* footer section start  */
+.footer ul li {
+  text-align: left;
+}
+.footer ul li a {
+  font-size: 14px;
+}
+.footer .footerul li:hover a {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer h5 {
+  margin-left: -100px;
+}
+
+.footer #upbtn .btn {
+  border: 1px solid #720404;
+  background-color: #7a7171;
+  color: #920606;
+  border-radius: 50%;
+  padding: 10px 20px 10px 20px;
+}
+.footer #upbtn .btn:hover {
+  border: 1px solid #fff;
+  background-color: #920606;
+  color: #fff;
+}
+/* footer section end  */
+/* news pages start */
+.card-body .heading2 {
+  background-color: #fff;
+  position: absolute;
+  margin-top: -170px;
+  border: 1px solid rgb(156, 154, 154);
+  margin-left: -25px;
+  padding: 8px 10px 0px 10px;
+}
+.card-body .heading2 span {
+  font-size: 18px;
+}
+.news .btn {
+  border: 1px solid maroon;
+  border-radius: 0%;
+  padding: 5px 25px 5px 25px;
+}
+.news .btn:hover {
+  background-color: #720404;
+  color: #fff;
+}
+.news .card p a:hover {
+  color: #151516;
+}
+.news a:hover {
+  color: #151516;
+}
+.news a {
+  color: #a70505;
+  text-decoration: none;
+}
+/* news pages end */
+/* job page start  */
+
+/* job page end  */
+.slider {
+  overflow: hidden;
+  height: 500px;
+}
+.slider img {
+  animation: zoomin 20s infinite;
+}
+@keyframes zoomin {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
